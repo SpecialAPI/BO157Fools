@@ -1,10 +1,10 @@
-﻿using BOSpecialFools.CustomTrigger;
-using BOSpecialFools.TriggerEffects;
+﻿using BO157Fools.CustomTrigger;
+using BO157Fools.TriggerEffects;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.Characters
+namespace BO157Fools.Characters
 {
     public static class Wreath
     {

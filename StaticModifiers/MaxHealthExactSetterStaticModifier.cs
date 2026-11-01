@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.StaticModifiers
+namespace BO157Fools.StaticModifiers
 {
     public class MaxHealthExactSetterStaticModifier : WearableStaticModifierSetterSO
     {

@@ -1,9 +1,9 @@
-﻿using BOSpecialFools.Targets;
+﻿using BO157Fools.Targets;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.Tools
+namespace BO157Fools.Tools
 {
     public static class LocalTargetingTools
     {

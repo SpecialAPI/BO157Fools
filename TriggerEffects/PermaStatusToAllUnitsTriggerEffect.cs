@@ -1,4 +1,4 @@
-namespace BOSpecialFools.TriggerEffects
+namespace BO157Fools.TriggerEffects
 {
     public class PermaStatusToAllUnitsTriggerEffect(StatusEffect_SO status, string unitListSV, bool applyToAllies, bool applyToEnemies) : TriggerEffect
     {

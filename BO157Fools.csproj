@@ -6,7 +6,7 @@
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 
     <!-- BO build script properties -->
-    <ModFolder>BOSpecialFools</ModFolder>
+    <ModFolder>157Fools</ModFolder>
     <ModInfoFolder>ModInfo</ModInfoFolder>
     <ModDLLFolder>plugins</ModDLLFolder>
   </PropertyGroup>

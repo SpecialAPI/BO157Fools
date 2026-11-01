@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.Misc
+namespace BO157Fools.Misc
 {
     [HarmonyPatch]
     public abstract class AdvancedModdedPostCombatResult : ModdedPostCombatResult

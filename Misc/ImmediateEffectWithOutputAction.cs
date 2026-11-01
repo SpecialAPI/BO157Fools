@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.Misc
+namespace BO157Fools.Misc
 {
     public class ImmediateEffectWithOutputAction(EffectInfo[] effects, IUnit caster, int startResult = 0) : IImmediateAction
     {

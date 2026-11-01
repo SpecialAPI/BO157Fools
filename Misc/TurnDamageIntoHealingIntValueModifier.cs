@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.Misc
+namespace BO157Fools.Misc
 {
     public class TurnDamageIntoHealingIntValueModifier(IUnit damageTarget, IUnit healingSource, BaseCombatTargettingSO healTargeting, int healingToDamagePercentageModifier = 0, bool direct = true) : IntValueModifier(24)
     {

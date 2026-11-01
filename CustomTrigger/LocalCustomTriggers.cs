@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.CustomTrigger
+namespace BO157Fools.CustomTrigger
 {
     public static class LocalCustomTriggers
     {

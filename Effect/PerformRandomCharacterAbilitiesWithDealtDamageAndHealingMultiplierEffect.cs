@@ -1,9 +1,9 @@
-﻿using BOSpecialFools.Misc;
+﻿using BO157Fools.Misc;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.Effect
+namespace BO157Fools.Effect
 {
     public class PerformRandomCharacterAbilitiesWithDealtDamageAndHealingMultiplierEffect : EffectSO
     {

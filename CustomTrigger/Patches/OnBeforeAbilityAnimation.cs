@@ -1,10 +1,10 @@
-﻿using BOSpecialFools.CustomTrigger.Args;
+﻿using BO157Fools.CustomTrigger.Args;
 using MonoMod.Cil;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.CustomTrigger.Patches
+namespace BO157Fools.CustomTrigger.Patches
 {
     [HarmonyPatch]
     internal static class OnBeforeAbilityAnimation

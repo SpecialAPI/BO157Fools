@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.Tools
+namespace BO157Fools.Tools
 {
     public static class LocalAbilityTools
     {

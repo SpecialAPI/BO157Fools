@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools
+namespace BO157Fools
 {
     public static class RankedAbilitiesDatabase
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.Items
+namespace BO157Fools.Items
 {
     public static class TrueZeal
     {

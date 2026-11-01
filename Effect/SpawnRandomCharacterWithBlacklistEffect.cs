@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace BOSpecialFools.Effect
+namespace BO157Fools.Effect
 {
     public class SpawnRandomCharacterWithBlacklistEffect : EffectSO
     {

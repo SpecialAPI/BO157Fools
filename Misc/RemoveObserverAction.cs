@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.Misc
+namespace BO157Fools.Misc
 {
     public class RemoveObserverAction(Action<object, object> handler, string trigger, object sender) : CombatAction
     {

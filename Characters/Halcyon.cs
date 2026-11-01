@@ -1,4 +1,4 @@
-namespace BOSpecialFools.Characters
+namespace BO157Fools.Characters
 {
     public static class Halcyon
     {

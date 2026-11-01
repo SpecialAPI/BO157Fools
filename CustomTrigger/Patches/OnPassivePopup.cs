@@ -1,9 +1,9 @@
-﻿using BOSpecialFools.CustomTrigger.Args;
+﻿using BO157Fools.CustomTrigger.Args;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.CustomTrigger.Patches
+namespace BO157Fools.CustomTrigger.Patches
 {
     [HarmonyPatch]
     public static class OnPassivePopup

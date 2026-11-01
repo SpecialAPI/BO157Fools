@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.Characters
+namespace BO157Fools.Characters
 {
     public static class F23
     {

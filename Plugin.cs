@@ -1,10 +1,10 @@
 ﻿using BepInEx;
-using BOSpecialFools.Characters;
-using BOSpecialFools.Items;
+using BO157Fools.Characters;
+using BO157Fools.Items;
 using Grimoire;
 using System;
 
-namespace BOSpecialFools
+namespace BO157Fools
 {
     [BepInDependency(BrutalAPI.BrutalAPI.GUID)]
     [BepInDependency(PentaclePlugin.MOD_GUID)]

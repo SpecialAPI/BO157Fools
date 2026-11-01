@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.Misc
+namespace BO157Fools.Misc
 {
     public class ImmediateEffectOnSpecificTargetsAction(EffectInfo[] effects, IUnit caster, List<TargetSlotInfo> targets, bool targetSlots, int startResult = 0) : IImmediateAction
     {

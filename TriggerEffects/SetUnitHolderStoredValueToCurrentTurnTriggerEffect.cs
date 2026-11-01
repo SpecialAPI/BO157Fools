@@ -1,9 +1,9 @@
-﻿using BOSpecialFools.Tools;
+﻿using BO157Fools.Tools;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.TriggerEffects
+namespace BO157Fools.TriggerEffects
 {
     public class SetUnitHolderStoredValueToCurrentTurnTriggerEffect(string sv, int unitIndex = 0) : TriggerEffect
     {

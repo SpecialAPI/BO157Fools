@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOSpecialFools.Targets
+namespace BO157Fools.Targets
 {
     public class TargetFilterByFieldEffectTargeting : TargetFilterTargetingBase
     {

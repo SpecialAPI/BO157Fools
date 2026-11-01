@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UIElements.StyleSheets.Syntax;
 using static UnityEngine.UIElements.StyleSheets.Dimension;
 
-namespace BOSpecialFools.Tools
+namespace BO157Fools.Tools
 {
     [HarmonyPatch]
     public static class UnitHistoryTools
