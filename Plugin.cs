@@ -28,7 +28,7 @@ namespace BO157Fools
             // Characters
             Wreath.Init();
             F23.Init();
-            //Halcyon.Init();
+            Halcyon.Init();
 
             // Items
             //OldBleach.Init();

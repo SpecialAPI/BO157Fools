@@ -20,7 +20,7 @@ namespace BO157Fools.Characters
                 .AddToGlossary("Permanently applies Insight to all party members/enemies.")
                 .AddToDatabase();
 
-            var forecastSV = NewStoredValue<UnitStoreData_BasicSO>(ForecastSVID);
+            NewStoredValue<UnitStoreData_BasicSO>(ForecastSVID);
             forecast.AddEffectsToAll(new TriggerEffectAndTriggersInfo()
             {
                 triggers = [TriggerCalls.OnOpponentHasSpawned.ToString()],
@@ -39,7 +39,19 @@ namespace BO157Fools.Characters
             {
                 var health = RankedValue(15, 16, 17, 19);
 
-                return new(health, []);
+                var abilityADamage = RankedValue(5, 6, 7, 8);
+                var abilityA = NewRankedAbility(AbilityAIDs)
+                    .SetBasicInformationCharacter($"Ability A {abilityRank}", $"Deal {abilityADamage} damage to the Opposing Enemy.\nSwap the Opposing enemy's current timeline abilities and the abilities it will perform next turn.")
+                    .SetVisuals(Visuals.Melt, Targeting.Slot_Front)
+                    .SetEffects(new()
+                    {
+                        Effects.GenerateEffect(CommonEffects.Damage, abilityADamage, Targeting.Slot_Front),
+                        Effects.GenerateEffect(SwapTargetCurrentAndInsightAbilitiesEffect.Create(), 0, Targeting.Slot_Front)
+                    })
+                    .AddIntent(Targeting.Slot_Front, IntentForDamage(abilityADamage), IntentType_GameIDs.Misc.ToString())
+                    .CharacterAbility(Pigments.Blue, Pigments.Red);
+
+                return new(health, [abilityA]);
             });
 
             ch.AddToDatabase();
